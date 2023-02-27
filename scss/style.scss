@@ -1,0 +1,65 @@
+body {background-image: url(../images/logo-fondo-negro.jpg) ;
+    background-size: auto;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+
+}
+
+@import "menu";
+@import "main";
+
+    
+@media only screen and ( max-width: 500px) {
+    
+     .container__fotos { display: flex;
+                 flex-direction: column; 
+                align-items: center; 
+    }
+    .history__foto {width: 80%;
+                    height: 80%;
+
+    }
+
+    .container__section {display: flex;
+        flex-direction: column; 
+       align-items: center
+
+    }
+
+    .imgDisc{  width: 80%;
+                height: 80%;
+
+    }
+
+
+    .bio { flex-direction: column; 
+    align-items: center;
+   
+    }
+    
+     .ilustracion { display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    #imgIndex {width: 80%; height: 80%;
+
+
+    }
+
+    .history__foto {width: 80%; height: 80%
+    }
+
+    .vivo { display: flex;
+        flex-direction: column; 
+       align-items: center
+
+    }
+
+    iframe {width: 80%; height: 80%
+
+    }
+
+}

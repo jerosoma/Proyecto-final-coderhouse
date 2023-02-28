@@ -1,7 +1,11 @@
+$fuente: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$width: 600px;
+
+
 body {background-image: url(../images/logo-fondo-negro.jpg) ;
     background-size: auto;
     background-attachment: fixed;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: $fuente;
     
 
 

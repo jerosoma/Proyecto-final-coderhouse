@@ -2,10 +2,10 @@ body {
   background-image: url(../images/logo-fondo-negro.jpg);
   background-size: auto;
   background-attachment: fixed;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
 .nav-item {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 15px;
   margin: 10px; }
 
@@ -105,7 +105,7 @@ p {
   margin: auto;
   margin-bottom: 10%;
   padding: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
   border-radius: 1%; }
 

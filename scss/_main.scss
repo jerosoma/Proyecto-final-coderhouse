@@ -55,14 +55,14 @@ p {  margin: 50px;
                     grid-template-columns: 1fr 1fr;
               
     
-                    #imgPipi {width: 600px;
+                    #imgPipi {width: $width;
                             height: 350px;
                             margin: 5%;
                     
                     
                         }
                     
-                    #imgGerman {width: 600px; 
+                    #imgGerman {width: $width; 
                                 height: 400px;
                                 margin: 5%;
                     }
@@ -73,7 +73,7 @@ p {  margin: 50px;
                             padding: 5%;
                     }
 
-                    #imgChelo { width: 600px;
+                    #imgChelo { width: $width;
                                 height: 350px;
                                 margin: 5%;
                     }
@@ -93,7 +93,7 @@ p {  margin: 50px;
     border: solid 3px black;
     margin: auto; margin-bottom: 10%;
     padding: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: $fuente;
     font-weight: bold;
     border-radius: 1%;
 

@@ -1,5 +1,6 @@
 body {
   background-image: url(../images/logo-fondo-negro.jpg);
+  background-color: black;
   background-size: auto;
   background-attachment: fixed;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
@@ -74,27 +75,15 @@ p {
 .container__fotos {
   display: grid;
   grid-template-columns: 1fr 1fr; }
-  .container__fotos #imgPipi {
-    width: 600px;
-    height: 350px;
-    margin: 5%; }
-  .container__fotos #imgGerman {
-    width: 600px;
-    height: 400px;
-    margin: 5%; }
-  .container__fotos #imgJero {
-    width: 450px;
-    height: 600px;
-    margin: 5%;
-    padding: 5%; }
-  .container__fotos #imgChelo {
-    width: 600px;
-    height: 350px;
+  .container__fotos .history__foto {
+    width: 80%;
+    height: 80%;
     margin: 5%; }
 
 .vivo {
   display: grid;
-  grid-template-columns: 2fr 2fr; }
+  grid-template-columns: 2fr 2fr;
+  margin-bottom: 20%; }
   .vivo iframe {
     margin-bottom: 50px; }
 

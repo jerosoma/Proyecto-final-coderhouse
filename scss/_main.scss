@@ -1,3 +1,6 @@
+
+
+
 h1 {padding: 30px;
     
     color: rgb(234, 238, 243);
@@ -54,34 +57,16 @@ p {  margin: 50px;
 .container__fotos { display: grid;
                     grid-template-columns: 1fr 1fr;
               
-    
-                    #imgPipi {width: $width;
-                            height: 350px;
-                            margin: 5%;
+                    .history__foto {width: 80%;
+                        height: 80%;
+                        margin: 5%;
                     
-                    
-                        }
-                    
-                    #imgGerman {width: $width; 
-                                height: 400px;
-                                margin: 5%;
                     }
-
-                    #imgJero {width: 450px;
-                            height: 600px;
-                            margin: 5%;
-                            padding: 5%;
-                    }
-
-                    #imgChelo { width: $width;
-                                height: 350px;
-                                margin: 5%;
-                    }
-
 }
 
 .vivo {display: grid;
     grid-template-columns: 2fr 2fr;
+    margin-bottom: 20%;
 
     iframe {       margin-bottom: 50px;
     }
